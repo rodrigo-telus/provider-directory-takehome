@@ -16,7 +16,7 @@ The considerations:
 - You can use your preferred styling framework - css, less, scss, styled-components, etc.
 - We are providing you with mobile and desktop views, however you do not have to create responsive views - feel free to just do one or the other we are just including them both to give you options.
 
-**Please see the provided Figma link for designs**
+**To get the designs please copy this Figma file**: https://www.figma.com/community/file/1139212771973017344
 
 ## Available Scripts
 

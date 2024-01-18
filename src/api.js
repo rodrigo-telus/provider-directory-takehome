@@ -14,7 +14,7 @@ export const fetchProvider = (providerId) => {
   return new Promise(
     (resolve, reject) => setTimeout(
       () => {
-        const [matchingProvider] = fullDataset.filter(({id}) => id === providerId)
+        const [matchingProvider] = fullDataset.filter(({ id }) => id === providerId)
         if (matchingProvider) {
           resolve(matchingProvider)
         } else {
@@ -39,7 +39,7 @@ export const fetchProviders = () => {
   )
 };
 
-const makePartialRepresentation = ({id, name, title, avatarUrl, bio, availabilty}) => ({
+const makePartialRepresentation = ({ id, name, title, avatarUrl, bio, availabilty }) => ({
   id, name, title, avatarUrl, bio, availabilty
 });
 

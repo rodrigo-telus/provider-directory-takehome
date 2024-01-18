@@ -18,6 +18,7 @@ export default function ProviderProfile() {
     const { name, title, bio, occupation, education, location, languages } = provider;
 
     if (provider) {
+        //TODO: Render profile page, with all the fields
         return (
             <>
                 {JSON.stringify(provider)}

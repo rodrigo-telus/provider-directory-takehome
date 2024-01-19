@@ -24,10 +24,10 @@ export default function BrowseProviders({ providers }) {
                 renderItem={(provider) => (
                     <>
                         <List.Item>
-                            <Link to={`/provider/${provider.id}`} key={provider.id}>
-                                <Card style={{
-                                    width: '100%',
-                                }}>
+                            <Link to={`/provider/${provider.id}`} key={provider.id} style={{
+                                width: '100%',
+                            }}>
+                                <Card>
                                     <List.Item.Meta
                                         avatar={<Avatar size="large" src={provider.avatarUrl} />}
                                         title={provider.name + ", " + provider.title}
